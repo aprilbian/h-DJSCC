@@ -11,7 +11,10 @@ This repository contains the source code for the paper:
 
 ## Overview
 
-**h-DJSCC** introduces a novel Deep Joint Source-Channel Coding (DJSCC) framework tailored for C-RAN (cloud radio access network). The key innovation is to efficiently and effectively convert the analog DeepJSCC codewords into bit sequences to be transmitted over the fibers.
+**h-DJSCC** introduces a novel Deep Joint Source-Channel Coding (DJSCC) framework tailored for C-RAN (cloud radio access network). The key innovation is to efficiently and effectively convert the analog DeepJSCC codewords into bit sequences to be transmitted over the fibers/backhaul links.
+
+![h-DJSCC System Diagram](h-djscc.jpg)
+
 
 Key features include:
 
@@ -19,9 +22,11 @@ Key features include:
 - **SNR-adaptive**: SNR-adaptive transmission for DeepJSCC has been introduced in the [literature](https://ieeexplore.ieee.org/document/9438648), yet how to seamlessly combine it with the compression module is unexplored.
 - **Variable rate compression**: To achieve different rate-distortion trade-offs using a single model, we consider using the technics in the image compression [literature](https://ieeexplore.ieee.org/document/9578818).
 
----
 
-![h-DJSCC System Diagram](a3fbf123-33ab-4295-9579-1fdeb2f45486.png)
+
+
+
+---
 
 ## Repository Structure
 
